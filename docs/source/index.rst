@@ -1,3 +1,7 @@
+
+
+.. image:: /images/information/logo.png
+
 Welcome to SysReview!
 ===================================
 
@@ -23,6 +27,7 @@ enabling researchers to efficiently gather and categorize relevant research pape
    info/index
    info/architecture
    info/datasources
+   info/deployment
 
 .. toctree::
    :hidden:

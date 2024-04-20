@@ -1,7 +1,7 @@
-Architecture
+Deployment
 ============
 
-.. image:: /images/information/systemArchitecture.png
+.. image:: /images/information/deploymentDiagram.png
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum. Velit ut tortor pretium viverra suspendisse potenti nullam. Morbi non arcu risus quis varius quam quisque. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Auctor eu augue ut lectus. Blandit libero volutpat sed cras. Ut sem viverra aliquet eget sit amet tellus cras. Quisque non tellus orci ac auctor augue mauris. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Tempus quam pellentesque nec nam aliquam. Dictum non consectetur a erat nam at. Orci ac auctor augue mauris. Netus et malesuada fames ac turpis. Proin libero nunc consequat interdum varius sit.
 
