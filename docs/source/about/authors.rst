@@ -12,6 +12,7 @@ Here are project's authors and contributors:
 
 * Rishank Karkera <rkarker1@binghamton.edu> :raw-html:`<div class="github-profile-badge" style="" data-user="r15hank"></div>`
 * Tarun Parmar <tparmar3@binghamton.edu> :raw-html:`<div class="github-profile-badge" data-user="ParmarTarun"></div>`
+* Hafiz Munsub Ali <hali@binghamton.edu> :raw-html:`<div class="github-profile-badge" data-user="munsub26"></div>`
 
 
 

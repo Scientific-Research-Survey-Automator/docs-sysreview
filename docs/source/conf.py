@@ -29,7 +29,13 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
+html_logo = 'images/logos/smallLogo.png'
+html_favicon = 'images/logos/favicon.png'
+html_title = 'Systematic Review'
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'logo_only': True,
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

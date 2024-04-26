@@ -1,6 +1,6 @@
 
 
-.. image:: /images/information/logo.png
+.. image:: /images/logos/logo.png
 
 Welcome to SysReview!
 ===================================
