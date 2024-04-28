@@ -1,14 +1,56 @@
-What is SysReview?
-==================
+Background
+==========
+.. figure:: /images/information/whatIsSysreview.png
+   :height: 300 px
+   :alt: sysreview homepage
+   :align: right
 
-.. image:: /images/information/whatIsSysreview.png
+Problem statement
+-----------------
+In the dynamic landscape of research, staying abreast of the latest developments and insights within one's field is
+paramount for researchers aiming to contribute meaningfully to their respective domains.
+However, the sheer volume of research publications across diverse databases poses a significant challenge, making it
+increasingly difficult for researchers to navigate and extract pertinent information efficiently.
+In response to this challenge, the SysReview emerges as a pioneering solution, offering a comprehensive and
+streamlined approach to conducting Systematic Reviews across various research domains.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum. Velit ut tortor pretium viverra suspendisse potenti nullam. Morbi non arcu risus quis varius quam quisque. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Auctor eu augue ut lectus. Blandit libero volutpat sed cras. Ut sem viverra aliquet eget sit amet tellus cras. Quisque non tellus orci ac auctor augue mauris. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Tempus quam pellentesque nec nam aliquam. Dictum non consectetur a erat nam at. Orci ac auctor augue mauris. Netus et malesuada fames ac turpis. Proin libero nunc consequat interdum varius sit.
+A Systematic Review serves as a cornerstone of evidence-based research, providing a rigorous and structured methodology
+for synthesizing existing literature on a particular topic or research question.
+Traditionally, conducting a systematic review involves a series of laborious and time-intensive tasks, including formulating
+research questions, designing search queries, retrieving and screening relevant articles, and synthesizing findings.
+These tasks often entail manual efforts, leading to inefficiencies, biases, and the potential for oversight.
 
-Metus dictum at tempor commodo ullamcorper a lacus vestibulum sed. Tortor dignissim convallis aenean et tortor at risus. Pulvinar proin gravida hendrerit lectus a. Nulla facilisi nullam vehicula ipsum a arcu. Non nisi est sit amet facilisis magna etiam. Rhoncus urna neque viverra justo nec ultrices. Vulputate sapien nec sagittis aliquam malesuada. Semper viverra nam libero justo laoreet sit amet cursus sit. Pulvinar pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Pellentesque habitant morbi tristique senectus et. Sapien faucibus et molestie ac feugiat sed lectus. Ac placerat vestibulum lectus mauris ultrices eros in cursus.
+Solution
+--------
+Recognizing the need for a more efficient and user-friendly approach to systematic reviews, SysReview introduces a novel
+dashboard equipped with advanced functionalities to streamline every step of the review process.
 
-Scelerisque eu ultrices vitae auctor eu augue ut lectus. Arcu ac tortor dignissim convallis aenean et tortor. Vestibulum mattis ullamcorper velit sed. Faucibus vitae aliquet nec ullamcorper sit amet. Morbi non arcu risus quis varius quam quisque id diam. Sed ullamcorper morbi tincidunt ornare. Ultricies mi eget mauris pharetra et ultrices. Sagittis orci a scelerisque purus semper eget duis at. Etiam dignissim diam quis enim lobortis scelerisque. Vitae proin sagittis nisl rhoncus mattis rhoncus. Morbi tristique senectus et netus et malesuada. Quam vulputate dignissim suspendisse in est ante.
+.. figure:: /images/information/query_builder.png
+   :height: 300 px
+   :alt: querybuilder
+   :align: right
 
-Etiam erat velit scelerisque in dictum non consectetur. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Pulvinar neque laoreet suspendisse interdum. Pellentesque pulvinar pellentesque habitant morbi tristique. Nisl tincidunt eget nullam non nisi est sit amet facilisis. Urna condimentum mattis pellentesque id nibh tortor id. Eu volutpat odio facilisis mauris sit amet. Auctor augue mauris augue neque gravida in. In egestas erat imperdiet sed euismod. Nulla aliquet enim tortor at auctor urna nunc. Neque vitae tempus quam pellentesque nec nam aliquam sem. Sed odio morbi quis commodo odio aenean. Tempor id eu nisl nunc mi ipsum. Nunc aliquet bibendum enim facilisis gravida neque. Est velit egestas dui id ornare arcu. Gravida in fermentum et sollicitudin ac orci phasellus egestas. Sem fringilla ut morbi tincidunt augue interdum velit. Platea dictumst quisque sagittis purus sit amet volutpat. Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. Aenean et tortor at risus viverra adipiscing.
+SysReview serves as the backbone of this Systematic Review process, offering a suite of tools to facilitate query design,
+data extraction, deduplication, and curation tracking.
+Researchers can leverage SysReview to formulate precise and comprehensive search queries, seamlessly retrieve research
+articles from multiple databases, and streamline the curation process to identify relevant studies effectively.
+By automating these essential tasks, SysReview empowers researchers to focus their efforts on analyzing and synthesizing
+the retrieved information, rather than navigating the complexities of data retrieval and management.
 
-Eu nisl nunc mi ipsum. Sodales neque sodales ut etiam. Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Purus non enim praesent elementum facilisis. Massa ultricies mi quis hendrerit. Massa sapien faucibus et molestie ac. Nibh tellus molestie nunc non blandit massa. Posuere urna nec tincidunt praesent semper feugiat nibh. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Volutpat blandit aliquam etiam erat velit. Cursus vitae congue mauris rhoncus aenean vel elit. Eget lorem dolor sed viverra ipsum.
+ARGUS Integration
+-----------------
+Complementing SysReview with ARGUS, an innovative tool designed to enhance the reading and scanning experience for
+researchers as they engage with relevant research articles. ARGUS leverages advanced algorithms and natural language
+processing techniques to assist researchers in comprehensively understanding and extracting key insights from research
+articles. By providing researchers with the tools and support necessary to navigate through dense and technical literature
+efficiently, ARGUS accelerates the review process while ensuring the thoroughness and accuracy of the synthesized findings.
+
+
+Summary
+-------
+The overarching goal of this project is to revolutionize the way researchers conduct systematic reviews, democratizing
+access to comprehensive and up-to-date research insights across diverse domains. By leveraging cutting-edge technologies
+and methodologies, SysReview empowers researchers, from seasoned academics to budding scholars, to conduct genuine and
+impactful research with precision, efficiency, and confidence. Through its user-centric design and robust feature set,
+SysReview aims to catalyze innovation and advance knowledge dissemination in the ever-evolving landscape of
+research and academia.

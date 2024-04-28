@@ -1,5 +1,5 @@
 Manually uploading results
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+==========================
 The searched results that we saw earlier are collected from respective research databases through their API.
 Sometimes certain results may appear elsewhere like their respective portals but not through their APIs.
 

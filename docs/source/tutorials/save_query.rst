@@ -1,5 +1,5 @@
 Saving query
-^^^^^^^^^^^^
+============
 
 At this point, you were successfully able to draft a query, build your query text, fetch results from datasource and manually patch results if necessary.
 Upon reviewing all the results you can now save this query.

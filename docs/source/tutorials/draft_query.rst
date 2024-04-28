@@ -1,8 +1,8 @@
 Designing queries
-~~~~~~~~~~~~~~~~~
+=================
 
 Drafting query
-^^^^^^^^^^^^^^
+--------------
 
 Now that you've successfully created your account and configured your project and its settings,
 it is time to design and execute your queries.
@@ -25,7 +25,7 @@ scientific research databases, you can manually enter the query text
 complexity such as nested logic, multiple kinds of operators which will also help in visualizing
 
 Using querybuilder
-^^^^^^^^^^^^^^^^^^
+------------------
 In order to use querybuilder click on the yellow :guilabel:`🔧` icon button in the query field, this will open a popup
 showing the querybuilder dialog box. Now you can design query rules or create groups of sub-queries and continue building your intended logic.
 

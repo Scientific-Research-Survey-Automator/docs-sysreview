@@ -1,5 +1,5 @@
 Tutorial summary
-^^^^^^^^^^^^^^^^
+================
 
 Great you've now reached the end of this tutorial and with this you've learned to
 

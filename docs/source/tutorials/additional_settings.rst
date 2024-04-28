@@ -1,5 +1,5 @@
 Additional features/workarounds
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===============================
 
 Viewing project report
 ----------------------

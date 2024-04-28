@@ -1,5 +1,5 @@
 Configuring categories
-~~~~~~~~~~~~~~~~~~~~~~
+======================
 Once you've setup your first project, click on the `project card` to open the project view.
 
 .. image:: /images/tutorials/categories/project_initial_view.png

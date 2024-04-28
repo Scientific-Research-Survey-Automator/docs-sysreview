@@ -1,5 +1,5 @@
 Curating query
-^^^^^^^^^^^^^^
+==============
 
 After you have completed designing and setting up your queries in your project,
 you can begin curating the search results based on the categories that you've configured for this project.
@@ -40,8 +40,8 @@ click on the :guilabel:`Bulk Action` button on the result panel stating total un
 
 .. image:: /images/tutorials/queries/curate/curation_results_bulk_updated.png
 
-7. You can also analyse the research papers from your results on RASA by clicking on the :raw-html:`<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="primary-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M7 9H2V7h5v2zm0 3H2v2h5v-2zm13.59 7l-3.83-3.83c-.8.52-1.74.83-2.76.83-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5c0 1.02-.31 1.96-.83 2.75L22 17.59 20.59 19zM17 11c0-1.65-1.35-3-3-3s-3 1.35-3 3 1.35 3 3 3 3-1.35 3-3zM2 19h10v-2H2v2z"></path></svg>` button besides the result
+7. You can also analyse the research papers from your results on ARGUS by clicking on the :raw-html:`<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="primary-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M7 9H2V7h5v2zm0 3H2v2h5v-2zm13.59 7l-3.83-3.83c-.8.52-1.74.83-2.76.83-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5c0 1.02-.31 1.96-.83 2.75L22 17.59 20.59 19zM17 11c0-1.65-1.35-3-3-3s-3 1.35-3 3 1.35 3 3 3 3-1.35 3-3zM2 19h10v-2H2v2z"></path></svg>` button besides the result
 or by selecting multiple results and then click on the :guilabel:`Bulk Action` button and then finally click on the :guilabel:`Analyse` button.
-This would open the RASA application on a new tab with your selected search results loaded. To know more about this application refer: <tbd>
+This would open the ARGUS application on a new tab with your selected search results loaded. To know more about this application refer: `Argus docs <https://documentation-argus.readthedocs.io/>`_
 
 .. image:: /images/tutorials/queries/curate/curation_result_bulk_action_menu.png
