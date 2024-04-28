@@ -1,5 +1,6 @@
+******************
 Setting up account
-==================
+******************
 To register an account, `open SysReview <https://sysrev.cs.binghamton.edu/sysreview>`_
 where you will see a yellow :guilabel:`Sign in` button.
 Click it to open the login/registration view.

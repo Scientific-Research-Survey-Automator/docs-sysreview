@@ -1,8 +1,9 @@
+************
 Architecture
-============
+************
 
 Overview
---------
+========
 
 .. figure:: /images/information/architecture.png
    :alt: system architecture
@@ -14,10 +15,10 @@ efficiently across diverse research domains. It encompasses various components, 
 synergistically to facilitate seamless data retrieval, processing, analysis, and reporting.
 
 Aspects
--------
+=======
 
 1. Frontend Interface
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 .. figure:: /images/information/architecture_frontend.png
    :alt: frontend architecture
    :height: 150
@@ -28,7 +29,7 @@ Aspects
 
 
 2. Backend Services
-^^^^^^^^^^^^^^^^^^^
+-------------------
 .. figure:: /images/information/architecture_backend.png
    :alt: backend architecture
    :height: 150
@@ -40,7 +41,7 @@ Aspects
 * Integrated with swagger to generate API documentation that can be accessed from `here <https://sysrev.cs.binghamton.edu/sysreview/swagger-ui/>`_.
 
 3. Data Processing Modules
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 .. image:: /images/information/datasources.png
 
 * At the heart of SysReview are the data processing modules responsible for retrieving, standardizing, and analyzing research articles from diverse sources.
@@ -48,7 +49,7 @@ Aspects
 * The data processing module is generic, with ability to accommodate multiple datasources.
 
 5. Database and Storage
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 .. figure:: /images/information/architecture_db.png
    :alt: database architecture
    :height: 150
@@ -59,7 +60,7 @@ Aspects
 * Research documents retrieved from different sources are standardised on this platform however can be unstructured/semi-structured with nested complexities. Postgres offers ability to store JSON objects without compromising on our relational schema for other entities.
 
 6. Security and Authentication
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 .. figure:: /images/information/architecture_auth.png
    :alt: auth architecture
    :height: 150
@@ -69,5 +70,5 @@ Aspects
 * User authentication and authorization mechanisms are employed using JWT (JSON Web Tokens) to ensure secure access to the system and protect against unauthorized access.
 
 Summary
--------
+======
 In summary, the architecture of SysReview provides a flexible, scalable, and secure framework for conducting systematic reviews effectively and efficiently. By leveraging advanced technologies and methodologies, SysReview empowers researchers to navigate the complexities of research literature with confidence, facilitating the synthesis of evidence and the advancement of knowledge across diverse research domains.

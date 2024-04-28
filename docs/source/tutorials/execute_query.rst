@@ -1,5 +1,6 @@
+***************
 Executing query
-===============
+***************
 Now that you've created a draft query, in order to preview search results:
 
 1. Ensure you've added the query text manually or through querybuilder.

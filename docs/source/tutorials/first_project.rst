@@ -1,5 +1,6 @@
+**********************
 Creating first project
-======================
+**********************
 On the project dashboard click on :guilabel:`+` icon button in the project panel to create a new project.
 This will open a popup asking you details about your new project:
 
