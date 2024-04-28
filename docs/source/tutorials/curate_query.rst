@@ -1,5 +1,5 @@
 Curating query
-==============
+**************
 
 After you have completed designing and setting up your queries in your project,
 you can begin curating the search results based on the categories that you've configured for this project.

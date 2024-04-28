@@ -1,5 +1,6 @@
+**********
 Deployment
-==========
+**********
 
 
 .. figure:: /images/information/deploymentDiagram.png

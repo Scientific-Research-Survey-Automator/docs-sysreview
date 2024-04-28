@@ -1,7 +1,10 @@
-******************
-SysReview tutorial
-******************
+##################
+SysReview Tutorial
+##################
 
+***********
+First steps
+***********
 .. image:: /images/tutorials/activityDiagram.png
 
 Objective

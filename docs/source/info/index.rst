@@ -1,12 +1,14 @@
+**********
 Background
-==========
+**********
+
 .. figure:: /images/information/whatIsSysreview.png
    :height: 300 px
    :alt: sysreview homepage
    :align: right
 
 Problem statement
------------------
+=================
 In the dynamic landscape of research, staying abreast of the latest developments and insights within one's field is
 paramount for researchers aiming to contribute meaningfully to their respective domains.
 However, the sheer volume of research publications across diverse databases poses a significant challenge, making it
@@ -21,7 +23,7 @@ research questions, designing search queries, retrieving and screening relevant 
 These tasks often entail manual efforts, leading to inefficiencies, biases, and the potential for oversight.
 
 Solution
---------
+========
 Recognizing the need for a more efficient and user-friendly approach to systematic reviews, SysReview introduces a novel
 dashboard equipped with advanced functionalities to streamline every step of the review process.
 
@@ -38,7 +40,7 @@ By automating these essential tasks, SysReview empowers researchers to focus the
 the retrieved information, rather than navigating the complexities of data retrieval and management.
 
 ARGUS Integration
------------------
+=================
 Complementing SysReview with ARGUS, an innovative tool designed to enhance the reading and scanning experience for
 researchers as they engage with relevant research articles. ARGUS leverages advanced algorithms and natural language
 processing techniques to assist researchers in comprehensively understanding and extracting key insights from research
@@ -47,7 +49,7 @@ efficiently, ARGUS accelerates the review process while ensuring the thoroughnes
 
 
 Summary
--------
+=======
 The overarching goal of this project is to revolutionize the way researchers conduct systematic reviews, democratizing
 access to comprehensive and up-to-date research insights across diverse domains. By leveraging cutting-edge technologies
 and methodologies, SysReview empowers researchers, from seasoned academics to budding scholars, to conduct genuine and

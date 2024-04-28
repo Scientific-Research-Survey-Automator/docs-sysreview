@@ -1,5 +1,6 @@
-Tutorial summary
-================
+*******
+Summary
+*******
 
 Great you've now reached the end of this tutorial and with this you've learned to
 
@@ -9,5 +10,3 @@ Great you've now reached the end of this tutorial and with this you've learned t
 * Extract results from multiple sources and upload results manually if needed
 * Saving queries and curating them as per categories defined for that project.
 * View project report and download it
-
-
