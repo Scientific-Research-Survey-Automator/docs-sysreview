@@ -1,10 +1,46 @@
-###########
-Information
-###########
-
 *********************
 Welcome to SysReview!
 *********************
+
+.. toctree::
+   :hidden:
+   :caption: Information
+   :name: informationtoc
+   :maxdepth: 10
+
+   info/index
+   info/features
+   info/architecture
+   info/deployment
+   info/implementation
+
+.. toctree::
+   :hidden:
+   :caption: Tutorials
+   :name: tutorialtoc
+   :maxdepth: 10
+
+   tutorials/index
+   tutorials/account_setup
+   tutorials/first_project
+   tutorials/configure_categories
+   tutorials/draft_query
+   tutorials/execute_query
+   tutorials/manual_upload
+   tutorials/save_query
+   tutorials/curate_query
+   tutorials/additional_settings
+   tutorials/summary
+
+.. toctree::
+   :hidden:
+   :caption: Reference
+   :name: abouttoc
+   :maxdepth: 10
+
+   about/index
+   about/authors.rst
+   about/license.rst
 
 What is SysReview?
 ==================
@@ -25,42 +61,4 @@ enabling researchers to efficiently gather and categorize relevant research pape
    This project is under active development.
 
 
-Contents
-========
-.. toctree::
-   :caption: Information
-   :name: informationtoc
-   :maxdepth: 10
-
-   info/index
-   info/features
-   info/architecture
-   info/deployment
-   info/implementation
-
-.. toctree::
-   :caption: Tutorials
-   :name: tutorialtoc
-   :maxdepth: 10
-
-   tutorials/index
-   tutorials/account_setup
-   tutorials/first_project
-   tutorials/configure_categories
-   tutorials/draft_query
-   tutorials/execute_query
-   tutorials/manual_upload
-   tutorials/save_query
-   tutorials/curate_query
-   tutorials/additional_settings
-   tutorials/summary
-
-.. toctree::
-   :caption: Reference
-   :name: abouttoc
-   :maxdepth: 10
-
-   about/index
-   about/authors.rst
-   about/license.rst
 
