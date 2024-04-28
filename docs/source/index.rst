@@ -2,10 +2,6 @@
 Welcome to SysReview!
 #####################
 
-***********
-Information
-***********
-
 What is SysReview?
 ==================
 
