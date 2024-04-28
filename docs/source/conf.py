@@ -35,6 +35,8 @@ html_title = 'Systematic Review'
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'logo_only': True,
+    'navigation_depth': -1,
+    'prev_next_buttons_location': 'both'
 }
 
 # -- Options for EPUB output

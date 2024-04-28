@@ -1,14 +1,24 @@
 Deployment
-============
+==========
 
-.. image:: /images/information/deploymentDiagram.png
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum. Velit ut tortor pretium viverra suspendisse potenti nullam. Morbi non arcu risus quis varius quam quisque. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Auctor eu augue ut lectus. Blandit libero volutpat sed cras. Ut sem viverra aliquet eget sit amet tellus cras. Quisque non tellus orci ac auctor augue mauris. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Tempus quam pellentesque nec nam aliquam. Dictum non consectetur a erat nam at. Orci ac auctor augue mauris. Netus et malesuada fames ac turpis. Proin libero nunc consequat interdum varius sit.
+.. figure:: /images/information/deploymentDiagram.png
+   :alt: deployment diagram
+   :align: right
 
-Metus dictum at tempor commodo ullamcorper a lacus vestibulum sed. Tortor dignissim convallis aenean et tortor at risus. Pulvinar proin gravida hendrerit lectus a. Nulla facilisi nullam vehicula ipsum a arcu. Non nisi est sit amet facilisis magna etiam. Rhoncus urna neque viverra justo nec ultrices. Vulputate sapien nec sagittis aliquam malesuada. Semper viverra nam libero justo laoreet sit amet cursus sit. Pulvinar pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Pellentesque habitant morbi tristique senectus et. Sapien faucibus et molestie ac feugiat sed lectus. Ac placerat vestibulum lectus mauris ultrices eros in cursus.
+The end-user interacts with our application through any web browser that supports javascript.
+The browser component serves as the user interface or client-side of the application, running directly on the user's device.
 
-Scelerisque eu ultrices vitae auctor eu augue ut lectus. Arcu ac tortor dignissim convallis aenean et tortor. Vestibulum mattis ullamcorper velit sed. Faucibus vitae aliquet nec ullamcorper sit amet. Morbi non arcu risus quis varius quam quisque id diam. Sed ullamcorper morbi tincidunt ornare. Ultricies mi eget mauris pharetra et ultrices. Sagittis orci a scelerisque purus semper eget duis at. Etiam dignissim diam quis enim lobortis scelerisque. Vitae proin sagittis nisl rhoncus mattis rhoncus. Morbi tristique senectus et netus et malesuada. Quam vulputate dignissim suspendisse in est ante.
+The browser communicates with our `server <https://sysrev.cs.binghamton.edu>`_ that is running a Nginx Engine,
+which acts as the web server and reverse proxy server for the application.
+Nginx is an open-source software known for its high performance, stability, and ability to handle a large number of concurrent connections.
+It is responsible for load balancing, caching, and serving static content for the application.
+The Nginx Engine, in turn, interacts with two main components: SysReview and Argus.
 
-Etiam erat velit scelerisque in dictum non consectetur. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Pulvinar neque laoreet suspendisse interdum. Pellentesque pulvinar pellentesque habitant morbi tristique. Nisl tincidunt eget nullam non nisi est sit amet facilisis. Urna condimentum mattis pellentesque id nibh tortor id. Eu volutpat odio facilisis mauris sit amet. Auctor augue mauris augue neque gravida in. In egestas erat imperdiet sed euismod. Nulla aliquet enim tortor at auctor urna nunc. Neque vitae tempus quam pellentesque nec nam aliquam sem. Sed odio morbi quis commodo odio aenean. Tempor id eu nisl nunc mi ipsum. Nunc aliquet bibendum enim facilisis gravida neque. Est velit egestas dui id ornare arcu. Gravida in fermentum et sollicitudin ac orci phasellus egestas. Sem fringilla ut morbi tincidunt augue interdum velit. Platea dictumst quisque sagittis purus sit amet volutpat. Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. Aenean et tortor at risus viverra adipiscing.
+Based on the provided route, nginx proxies the request to the corresponding application.
+In summary, the end-user accesses the application through a web browser, which communicates with the Nginx Engine that
+handles web server and proxy tasks. The Nginx Engine then routes requests or delegates tasks to the SysReview and Argus
+components, which handle system monitoring and security/monitoring functions, respectively.
 
-Eu nisl nunc mi ipsum. Sodales neque sodales ut etiam. Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Purus non enim praesent elementum facilisis. Massa ultricies mi quis hendrerit. Massa sapien faucibus et molestie ac. Nibh tellus molestie nunc non blandit massa. Posuere urna nec tincidunt praesent semper feugiat nibh. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Volutpat blandit aliquam etiam erat velit. Cursus vitae congue mauris rhoncus aenean vel elit. Eget lorem dolor sed viverra ipsum.
+This deployment architecture aims to provide a scalable, secure, and efficient way to deliver features and
+functionalities of both the application to the end-users.

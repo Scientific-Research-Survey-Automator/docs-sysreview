@@ -28,13 +28,13 @@ enabling researchers to efficiently gather and categorize relevant research pape
    :hidden:
    :caption: Information
    :name: informationtoc
-   :maxdepth: 10
+   :maxdepth: 3
 
    info/index
    info/features
    info/architecture
-   info/datasources
    info/deployment
+   info/implementation
 
 .. toctree::
    :hidden:
