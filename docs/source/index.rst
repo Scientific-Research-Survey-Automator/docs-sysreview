@@ -1,18 +1,24 @@
-
-
-.. image:: /images/information/logo.png
-
+#####################
 Welcome to SysReview!
-===================================
+#####################
 
----------
-Objective
----------
+***********
+Information
+***********
+
+What is SysReview?
+==================
+
+.. figure:: /images/logos/logo.png
+   :alt: sysreview logo
+   :align: right
+
 **SysReview** (/sys'review/) is survey automation tool intended to assist interdisciplinary researchers to streamline
 the process of surveying research papers based on provided keywords by gathering scientific research papers
 that are relevant to their research survey. The tool automates various steps involved in the traditional manual process,
 enabling researchers to efficiently gather and categorize relevant research papers for their interdisciplinary studies.
 `SysReview <https://sysrev.cs.binghamton.edu/sysreview>`_ can be accessed from any web browser that supports javascript.
+
 
 .. note::
 
@@ -22,12 +28,13 @@ enabling researchers to efficiently gather and categorize relevant research pape
    :hidden:
    :caption: Information
    :name: informationtoc
-   :maxdepth: 10
+   :maxdepth: 3
 
    info/index
+   info/features
    info/architecture
-   info/datasources
    info/deployment
+   info/implementation
 
 .. toctree::
    :hidden:

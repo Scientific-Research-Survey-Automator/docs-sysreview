@@ -1,14 +1,73 @@
 Architecture
 ============
 
-.. image:: /images/information/systemArchitecture.png
+Overview
+--------
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue mauris augue neque gravida in fermentum. Velit ut tortor pretium viverra suspendisse potenti nullam. Morbi non arcu risus quis varius quam quisque. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Auctor eu augue ut lectus. Blandit libero volutpat sed cras. Ut sem viverra aliquet eget sit amet tellus cras. Quisque non tellus orci ac auctor augue mauris. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Tempus quam pellentesque nec nam aliquam. Dictum non consectetur a erat nam at. Orci ac auctor augue mauris. Netus et malesuada fames ac turpis. Proin libero nunc consequat interdum varius sit.
+.. figure:: /images/information/architecture.png
+   :alt: system architecture
+   :scale: 40 %
+   :align: right
 
-Metus dictum at tempor commodo ullamcorper a lacus vestibulum sed. Tortor dignissim convallis aenean et tortor at risus. Pulvinar proin gravida hendrerit lectus a. Nulla facilisi nullam vehicula ipsum a arcu. Non nisi est sit amet facilisis magna etiam. Rhoncus urna neque viverra justo nec ultrices. Vulputate sapien nec sagittis aliquam malesuada. Semper viverra nam libero justo laoreet sit amet cursus sit. Pulvinar pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Pellentesque habitant morbi tristique senectus et. Sapien faucibus et molestie ac feugiat sed lectus. Ac placerat vestibulum lectus mauris ultrices eros in cursus.
+The architecture of SysReview is designed to provide a robust and scalable framework for conducting systematic reviews
+efficiently across diverse research domains. It encompasses various components, modules, and layers that work
+synergistically to facilitate seamless data retrieval, processing, analysis, and reporting.
 
-Scelerisque eu ultrices vitae auctor eu augue ut lectus. Arcu ac tortor dignissim convallis aenean et tortor. Vestibulum mattis ullamcorper velit sed. Faucibus vitae aliquet nec ullamcorper sit amet. Morbi non arcu risus quis varius quam quisque id diam. Sed ullamcorper morbi tincidunt ornare. Ultricies mi eget mauris pharetra et ultrices. Sagittis orci a scelerisque purus semper eget duis at. Etiam dignissim diam quis enim lobortis scelerisque. Vitae proin sagittis nisl rhoncus mattis rhoncus. Morbi tristique senectus et netus et malesuada. Quam vulputate dignissim suspendisse in est ante.
+Aspects
+-------
 
-Etiam erat velit scelerisque in dictum non consectetur. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Pulvinar neque laoreet suspendisse interdum. Pellentesque pulvinar pellentesque habitant morbi tristique. Nisl tincidunt eget nullam non nisi est sit amet facilisis. Urna condimentum mattis pellentesque id nibh tortor id. Eu volutpat odio facilisis mauris sit amet. Auctor augue mauris augue neque gravida in. In egestas erat imperdiet sed euismod. Nulla aliquet enim tortor at auctor urna nunc. Neque vitae tempus quam pellentesque nec nam aliquam sem. Sed odio morbi quis commodo odio aenean. Tempor id eu nisl nunc mi ipsum. Nunc aliquet bibendum enim facilisis gravida neque. Est velit egestas dui id ornare arcu. Gravida in fermentum et sollicitudin ac orci phasellus egestas. Sem fringilla ut morbi tincidunt augue interdum velit. Platea dictumst quisque sagittis purus sit amet volutpat. Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. Aenean et tortor at risus viverra adipiscing.
+1. Frontend Interface
+^^^^^^^^^^^^^^^^^^^^^
+.. figure:: /images/information/architecture_frontend.png
+   :alt: frontend architecture
+   :height: 150
+   :align: right
 
-Eu nisl nunc mi ipsum. Sodales neque sodales ut etiam. Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Purus non enim praesent elementum facilisis. Massa ultricies mi quis hendrerit. Massa sapien faucibus et molestie ac. Nibh tellus molestie nunc non blandit massa. Posuere urna nec tincidunt praesent semper feugiat nibh. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Volutpat blandit aliquam etiam erat velit. Cursus vitae congue mauris rhoncus aenean vel elit. Eget lorem dolor sed viverra ipsum.
+* The frontend interface serves as the user-facing component of SysReview, providing researchers with intuitive tools and interfaces to interact with the system.
+* Built using modern web technologies such as HTML, CSS, and React(e.g., JavaScript frameworks ), the frontend interface offers a responsive and user-friendly experience across different devices and platforms.
+
+
+2. Backend Services
+^^^^^^^^^^^^^^^^^^^
+.. figure:: /images/information/architecture_backend.png
+   :alt: backend architecture
+   :height: 150
+   :align: left
+
+* The backend services of SysReview encompass the core logic and functionality of the system, handling tasks such as user/account session management, configuring projects, query processing, data retrieval, categorising results, and curation tracking.
+* Implemented using server-side technologies such as Java and Spring Boot, the backend services provide robust APIs for communication between the frontend interface and the underlying data processing modules.
+* These services orchestrate the systematic review process, co-ordinating the execution of various tasks and workflows to ensure seamless integration and data flow.
+* Integrated with swagger to generate API documentation that can be accessed from `here <https://sysrev.cs.binghamton.edu/sysreview/swagger-ui/>`_.
+
+3. Data Processing Modules
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. image:: /images/information/datasources.png
+
+* At the heart of SysReview are the data processing modules responsible for retrieving, standardizing, and analyzing research articles from diverse sources.
+* These modules leverage APIs and web scraping techniques to extract data from research hosting databases such as Web of Science, PubMed, IEEE, Scopus, and others.
+* The data processing module is generic, with ability to accommodate multiple datasources.
+
+5. Database and Storage
+^^^^^^^^^^^^^^^^^^^^^^^
+.. figure:: /images/information/architecture_db.png
+   :alt: database architecture
+   :height: 150
+   :align: right
+
+* SysReview relies on a robust database and storage infrastructure to store and manage project configuration, research articles, query metadata, user preferences, and other relevant data.
+* Postgres database is leveraged to maintain the relational data across different components and provide ability to store and retrieve data as traffic scales.
+* Research documents retrieved from different sources are standardised on this platform however can be unstructured/semi-structured with nested complexities. Postgres offers ability to store JSON objects without compromising on our relational schema for other entities.
+
+6. Security and Authentication
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. figure:: /images/information/architecture_auth.png
+   :alt: auth architecture
+   :height: 150
+   :align: left
+
+* Security measures such as encryption, authentication, and access control mechanisms are integrated into the architecture of SysReview to safeguard sensitive data and user information.
+* User authentication and authorization mechanisms are employed using JWT (JSON Web Tokens) to ensure secure access to the system and protect against unauthorized access.
+
+Summary
+-------
+In summary, the architecture of SysReview provides a flexible, scalable, and secure framework for conducting systematic reviews effectively and efficiently. By leveraging advanced technologies and methodologies, SysReview empowers researchers to navigate the complexities of research literature with confidence, facilitating the synthesis of evidence and the advancement of knowledge across diverse research domains.
