@@ -28,7 +28,7 @@ enabling researchers to efficiently gather and categorize relevant research pape
    :hidden:
    :caption: Information
    :name: informationtoc
-   :maxdepth: 3
+   :maxdepth: 10
 
    info/index
    info/features
