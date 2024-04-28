@@ -70,5 +70,5 @@ Aspects
 * User authentication and authorization mechanisms are employed using JWT (JSON Web Tokens) to ensure secure access to the system and protect against unauthorized access.
 
 Summary
-======
+=======
 In summary, the architecture of SysReview provides a flexible, scalable, and secure framework for conducting systematic reviews effectively and efficiently. By leveraging advanced technologies and methodologies, SysReview empowers researchers to navigate the complexities of research literature with confidence, facilitating the synthesis of evidence and the advancement of knowledge across diverse research domains.

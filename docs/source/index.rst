@@ -24,8 +24,10 @@ enabling researchers to efficiently gather and categorize relevant research pape
 
    This project is under active development.
 
+
+Contents
+========
 .. toctree::
-   :hidden:
    :caption: Information
    :name: informationtoc
    :maxdepth: 10
@@ -37,7 +39,6 @@ enabling researchers to efficiently gather and categorize relevant research pape
    info/implementation
 
 .. toctree::
-   :hidden:
    :caption: Tutorials
    :name: tutorialtoc
    :maxdepth: 10
@@ -55,7 +56,6 @@ enabling researchers to efficiently gather and categorize relevant research pape
    tutorials/summary
 
 .. toctree::
-   :hidden:
    :caption: Reference
    :name: abouttoc
    :maxdepth: 10

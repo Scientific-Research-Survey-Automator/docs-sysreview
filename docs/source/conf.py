@@ -6,8 +6,8 @@ project = 'SysReview'
 copyright = '2024, Binghamton University'
 author = 'Rishank'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.0'
+version = release
 
 # -- General configuration
 
