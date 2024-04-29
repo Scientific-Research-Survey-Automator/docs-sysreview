@@ -1,6 +1,17 @@
-**********
+##########
 Background
-**********
+##########
+.. toctree::
+   :hidden:
+   :caption: Information
+   :name: information2toc
+   :maxdepth: 10
+
+   features
+   architecture
+   deployment
+   implementation
+
 
 .. figure:: /images/information/whatIsSysreview.png
    :height: 300 px
