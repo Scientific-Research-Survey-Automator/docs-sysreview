@@ -35,7 +35,9 @@ html_title = 'Systematic Review'
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'logo_only': True,
+    'display_version': False,
     'navigation_depth': -1,
+    'collapse_navigation': False,
     'prev_next_buttons_location': 'both'
 }
 
