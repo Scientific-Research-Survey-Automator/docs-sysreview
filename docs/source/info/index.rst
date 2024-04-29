@@ -1,17 +1,6 @@
 ##########
 Background
 ##########
-.. toctree::
-   :hidden:
-   :caption: Information
-   :name: information2toc
-   :maxdepth: 10
-
-   self
-   features
-   architecture
-   deployment
-   implementation
 
 ************
 Introduction
@@ -70,3 +59,15 @@ and methodologies, SysReview empowers researchers, from seasoned academics to bu
 impactful research with precision, efficiency, and confidence. Through its user-centric design and robust feature set,
 SysReview aims to catalyze innovation and advance knowledge dissemination in the ever-evolving landscape of
 research and academia.
+
+.. toctree::
+   :hidden:
+   :caption: Information
+   :name: information2toc
+   :maxdepth: 10
+
+   self
+   features
+   architecture
+   deployment
+   implementation
