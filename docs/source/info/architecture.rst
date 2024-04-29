@@ -17,8 +17,8 @@ Frontend Interface
 ---------------------
 .. figure:: /images/information/architecture_frontend.png
    :alt: frontend architecture
-   :width: 150
-   :height: 150
+   :width: 200
+   :height: 200
    :scale: 75 %
    :align: right
 
@@ -30,8 +30,8 @@ Backend Services
 -------------------
 .. figure:: /images/information/architecture_backend.png
    :alt: backend architecture
-   :width: 150
-   :height: 150
+   :width: 300
+   :height: 300
    :scale: 75 %
    :align: left
 
