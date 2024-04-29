@@ -4,7 +4,7 @@
 
 project = 'SysReview'
 copyright = '2024, Binghamton University'
-author = 'Rishank'
+author = 'Rishank Karkera \\and Tarun Parmar'
 
 release = '1.0'
 version = release
