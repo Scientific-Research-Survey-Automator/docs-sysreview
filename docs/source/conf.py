@@ -9,12 +9,12 @@ author = 'Rishank Karkera & Tarun Parmar'
 release = '1.0'
 version = release
 
-youtube_video_link = 'https://www.youtube.com/embed/139lNDBp_YY'
+youtube_video_link = 'https://player.vimeo.com/video/940944648'
 rst_epilog = """
 .. role:: raw-html(raw)
    :format: html
 .. |tutorial_video_link| replace:: {link}
-.. |tutorial_frame_link| replace:: :raw-html:`<iframe width="560" height="315" src="{link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+.. |tutorial_frame_link| replace:: :raw-html:`<iframe src="{link}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`
 """.format(link=youtube_video_link)
 
 # -- General configuration
