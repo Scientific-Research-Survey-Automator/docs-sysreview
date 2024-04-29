@@ -25,15 +25,15 @@ These tasks often entail manual efforts, leading to inefficiencies, biases, and 
 
 Solution
 ========
-Recognizing the need for a more efficient and user-friendly approach to systematic reviews, SysReview introduces a novel
-dashboard equipped with advanced functionalities to streamline every step of the review process.
-
 .. figure:: /images/information/query_builder.png
    :height: 300 px
    :width: 400 px
    :scale: 100 %
    :alt: querybuilder
    :align: right
+
+Recognizing the need for a more efficient and user-friendly approach to systematic reviews, SysReview introduces a novel
+dashboard equipped with advanced functionalities to streamline every step of the review process.
 
 SysReview serves as the backbone of this Systematic Review process, offering a suite of tools to facilitate query design,
 data extraction, deduplication, and curation tracking.
