@@ -23,7 +23,6 @@ enabling researchers to efficiently gather and categorize relevant research pape
    :name: informationtoc
    :maxdepth: 10
 
-   self
    info/index
 
 .. toctree::
