@@ -4,11 +4,7 @@ Architecture
 
 Overview
 ========
-
-.. figure:: /images/information/architecture.png
-   :alt: system architecture
-   :scale: 40 %
-   :align: center
+.. image:: /images/information/architecture.png
 
 The architecture of SysReview is designed to provide a robust and scalable framework for conducting systematic reviews
 efficiently across diverse research domains. It encompasses various components, modules, and layers that work
@@ -17,7 +13,7 @@ synergistically to facilitate seamless data retrieval, processing, analysis, and
 Aspects
 =======
 
-1. Frontend Interface
+Frontend Interface
 ---------------------
 .. figure:: /images/information/architecture_frontend.png
    :alt: frontend architecture
@@ -30,7 +26,7 @@ Aspects
 * Built using modern web technologies such as HTML, CSS, and React(e.g., JavaScript frameworks ), the frontend interface offers a responsive and user-friendly experience across different devices and platforms.
 
 
-2. Backend Services
+Backend Services
 -------------------
 .. figure:: /images/information/architecture_backend.png
    :alt: backend architecture
@@ -44,7 +40,7 @@ Aspects
 * These services orchestrate the systematic review process, co-ordinating the execution of various tasks and workflows to ensure seamless integration and data flow.
 * Integrated with swagger to generate API documentation that can be accessed from `here <https://sysrev.cs.binghamton.edu/sysreview/swagger-ui/>`_.
 
-3. Data Processing Modules
+Data Processing Modules
 --------------------------
 .. image:: /images/information/datasources.png
 
@@ -52,7 +48,7 @@ Aspects
 * These modules leverage APIs and web scraping techniques to extract data from research hosting databases such as Web of Science, PubMed, IEEE, Scopus, and others.
 * The data processing module is generic, with ability to accommodate multiple datasources.
 
-5. Database and Storage
+Database and Storage
 -----------------------
 .. figure:: /images/information/architecture_db.png
    :alt: database architecture
@@ -65,7 +61,7 @@ Aspects
 * Postgres database is leveraged to maintain the relational data across different components and provide ability to store and retrieve data as traffic scales.
 * Research documents retrieved from different sources are standardised on this platform however can be unstructured/semi-structured with nested complexities. Postgres offers ability to store JSON objects without compromising on our relational schema for other entities.
 
-6. Security and Authentication
+Security and Authentication
 ------------------------------
 .. figure:: /images/information/architecture_auth.png
    :alt: auth architecture
