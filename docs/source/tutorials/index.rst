@@ -4,7 +4,6 @@ SysReview Tutorial
 .. toctree::
    :caption: Tutorials
    :name: tutorial2toc
-   :numbered:
    :maxdepth: 10
 
    getting_started

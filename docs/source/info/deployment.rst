@@ -5,7 +5,7 @@ Deployment
 
 .. figure:: /images/information/deploymentDiagram.png
    :alt: deployment diagram
-   :align: right
+   :align: center
 
 The end-user interacts with our application through any web browser that supports javascript.
 The browser component serves as the user interface or client-side of the application, running directly on the user's device.

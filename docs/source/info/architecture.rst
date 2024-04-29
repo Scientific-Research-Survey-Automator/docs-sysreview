@@ -8,7 +8,7 @@ Overview
 .. figure:: /images/information/architecture.png
    :alt: system architecture
    :scale: 40 %
-   :align: right
+   :align: center
 
 The architecture of SysReview is designed to provide a robust and scalable framework for conducting systematic reviews
 efficiently across diverse research domains. It encompasses various components, modules, and layers that work
@@ -21,7 +21,9 @@ Aspects
 ---------------------
 .. figure:: /images/information/architecture_frontend.png
    :alt: frontend architecture
+   :width: 150
    :height: 150
+   :scale: 75 %
    :align: right
 
 * The frontend interface serves as the user-facing component of SysReview, providing researchers with intuitive tools and interfaces to interact with the system.
@@ -32,7 +34,9 @@ Aspects
 -------------------
 .. figure:: /images/information/architecture_backend.png
    :alt: backend architecture
+   :width: 150
    :height: 150
+   :scale: 75 %
    :align: left
 
 * The backend services of SysReview encompass the core logic and functionality of the system, handling tasks such as user/account session management, configuring projects, query processing, data retrieval, categorising results, and curation tracking.
@@ -52,7 +56,9 @@ Aspects
 -----------------------
 .. figure:: /images/information/architecture_db.png
    :alt: database architecture
+   :width: 150
    :height: 150
+   :scale: 75 %
    :align: right
 
 * SysReview relies on a robust database and storage infrastructure to store and manage project configuration, research articles, query metadata, user preferences, and other relevant data.
@@ -63,7 +69,9 @@ Aspects
 ------------------------------
 .. figure:: /images/information/architecture_auth.png
    :alt: auth architecture
+   :width: 150
    :height: 150
+   :scale: 75 %
    :align: left
 
 * Security measures such as encryption, authentication, and access control mechanisms are integrated into the architecture of SysReview to safeguard sensitive data and user information.

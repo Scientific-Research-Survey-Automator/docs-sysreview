@@ -4,6 +4,7 @@ Welcome to SysReview!
 
 
 .. figure:: /images/logos/logo.png
+   :scale: 75 %
    :alt: sysreview logo
    :align: right
 

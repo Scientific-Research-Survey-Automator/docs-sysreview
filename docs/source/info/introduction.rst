@@ -2,7 +2,9 @@
 Introduction
 ************
 .. figure:: /images/information/whatIsSysreview.png
-   :height: 300 px
+   :height: 200 px
+   :width: 400 px
+   :scale: 75 %
    :alt: sysreview homepage
    :align: right
 
@@ -28,6 +30,8 @@ dashboard equipped with advanced functionalities to streamline every step of the
 
 .. figure:: /images/information/query_builder.png
    :height: 300 px
+   :width: 400 px
+   :scale: 100 %
    :alt: querybuilder
    :align: right
 
