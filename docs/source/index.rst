@@ -1,13 +1,10 @@
-*********************
-Welcome to SysReview!
-*********************
-
 .. toctree::
    :hidden:
    :caption: Information
    :name: informationtoc
    :maxdepth: 10
 
+   self
    info/index
    info/features
    info/architecture
@@ -21,16 +18,6 @@ Welcome to SysReview!
    :maxdepth: 10
 
    tutorials/index
-   tutorials/account_setup
-   tutorials/first_project
-   tutorials/configure_categories
-   tutorials/draft_query
-   tutorials/execute_query
-   tutorials/manual_upload
-   tutorials/save_query
-   tutorials/curate_query
-   tutorials/additional_settings
-   tutorials/summary
 
 .. toctree::
    :hidden:
@@ -39,11 +26,13 @@ Welcome to SysReview!
    :maxdepth: 10
 
    about/index
-   about/authors.rst
-   about/license.rst
+
+#####################
+Welcome to SysReview!
+#####################
 
 What is SysReview?
-==================
+******************
 
 .. figure:: /images/logos/logo.png
    :alt: sysreview logo
