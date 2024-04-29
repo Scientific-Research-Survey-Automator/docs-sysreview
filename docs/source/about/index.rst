@@ -8,7 +8,3 @@ About
 
    authors.rst
    license.rst
-
-
-
-This section contains information about SysReview project itself.

@@ -7,12 +7,15 @@ Background
    :name: information2toc
    :maxdepth: 10
 
+   self
    features
    architecture
    deployment
    implementation
 
-
+************
+Introduction
+************
 .. figure:: /images/information/whatIsSysreview.png
    :height: 300 px
    :alt: sysreview homepage
