@@ -9,6 +9,14 @@ author = 'Rishank Karkera & Tarun Parmar'
 release = '1.0'
 version = release
 
+youtube_video_link = 'https://www.youtube.com/embed/139lNDBp_YY'
+rst_epilog = """
+.. role:: raw-html(raw)
+   :format: html
+.. |tutorial_video_link| replace:: {link}
+.. |tutorial_frame_link| replace:: :raw-html:`<iframe width="560" height="315" src="{link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+""".format(link=youtube_video_link)
+
 # -- General configuration
 
 extensions = [
@@ -17,7 +25,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.autosectionlabel',
 ]
+autosectionlabel_prefix_document = True
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
