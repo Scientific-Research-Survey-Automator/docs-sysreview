@@ -17,5 +17,6 @@ SysReview Tutorial
    curate_query
    additional_settings
    summary
+   videos
 
-
+|tutorial_frame_link|
