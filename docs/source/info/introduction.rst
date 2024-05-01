@@ -1,15 +1,15 @@
 ************
 Introduction
 ************
-.. figure:: /images/information/whatIsSysreview.png
-   :height: 200 px
-   :width: 400 px
-   :scale: 75 %
-   :alt: sysreview homepage
-   :align: right
 
 Problem statement
 =================
+.. figure:: /images/information/whatIsSysreview.png
+   :height: 200 px
+   :width: 400 px
+   :alt: sysreview homepage
+   :align: right
+
 In the dynamic landscape of research, staying abreast of the latest developments and insights within one's field is
 paramount for researchers aiming to contribute meaningfully to their respective domains.
 However, the sheer volume of research publications across diverse databases poses a significant challenge, making it
@@ -26,9 +26,8 @@ These tasks often entail manual efforts, leading to inefficiencies, biases, and 
 Solution
 ========
 .. figure:: /images/information/query_builder.png
-   :height: 300 px
+   :height: 180 px
    :width: 400 px
-   :scale: 100 %
    :alt: querybuilder
    :align: right
 

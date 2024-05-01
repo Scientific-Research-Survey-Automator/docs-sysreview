@@ -4,7 +4,21 @@
 
 project = 'SysReview'
 copyright = '2024, Binghamton University'
-author = 'Rishank Karkera & Tarun Parmar'
+author = "Rishank Karkera, Tarun Parmar"
+
+def get_author_for_latex(author_names: str):
+    latex_line_break = "\\\\"
+    return (author_names
+            .replace(", ", latex_line_break)
+            .replace(",", latex_line_break))
+
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title, author, document class [howto/manual]).
+
+latex_documents = [
+    ('index', f'{project.lower()}.tex', project, get_author_for_latex(author), 'manual'),
+]
 
 release = '1.0'
 version = release
@@ -26,6 +40,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx.ext.autosectionlabel',
+    'sphinxcontrib.jquery'
 ]
 autosectionlabel_prefix_document = True
 
@@ -61,4 +76,8 @@ html_static_path = ['_static']
 # or fully qualified paths (eg. https://...)
 html_css_files = [
     'css/custom.css',
+]
+
+html_js_files = [
+    'js/custom.js'
 ]
