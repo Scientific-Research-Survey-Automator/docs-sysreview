@@ -30,8 +30,8 @@ Backend Services
 -------------------
 .. figure:: /images/information/architecture_backend.png
    :alt: backend architecture
-   :width: 150
-   :height: 200
+   :figwidth: 30%
+   :height: 300px
    :scale: 75 %
    :align: left
 
