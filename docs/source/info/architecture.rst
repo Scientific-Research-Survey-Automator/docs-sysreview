@@ -23,16 +23,19 @@ Frontend Interface
    :align: right
 
 * The frontend interface serves as the user-facing component of SysReview, providing researchers with intuitive tools and interfaces to interact with the system.
-* Built using modern web technologies such as HTML, CSS, and React(e.g., JavaScript frameworks ), the frontend interface offers a responsive and user-friendly experience across different devices and platforms.
+* It is built using modern web technologies such as HTML, CSS, and React.
+* It offers a responsive and user-friendly experience across different devices and platforms.
+* It also provides users with functionalities to create and manage their projects, queries and search results and also curate results based on their preferred categories
+* End-users have the support of leveraging query builder tool which helps them in creating & visualizing complex queries.
+
 
 
 Backend Services
 -------------------
 .. figure:: /images/information/architecture_backend.png
    :alt: backend architecture
-   :figwidth: 30%
-   :height: 300px
-   :scale: 75 %
+   :width: 150
+   :height: 140
    :align: left
 
 * The backend services of SysReview encompass the core logic and functionality of the system, handling tasks such as user/account session management, configuring projects, query processing, data retrieval, categorising results, and curation tracking.
@@ -65,9 +68,8 @@ Security and Authentication
 ------------------------------
 .. figure:: /images/information/architecture_auth.png
    :alt: auth architecture
-   :width: 300
-   :height: 125
-   :scale: 75 %
+   :width: 200
+   :height: 80
    :align: left
 
 * Security measures such as encryption, authentication, and access control mechanisms are integrated into the architecture of SysReview to safeguard sensitive data and user information.
