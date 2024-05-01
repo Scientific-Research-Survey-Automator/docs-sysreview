@@ -30,8 +30,8 @@ Backend Services
 -------------------
 .. figure:: /images/information/architecture_backend.png
    :alt: backend architecture
-   :width: 300
-   :height: 300
+   :width: 150
+   :height: 200
    :scale: 75 %
    :align: left
 
@@ -65,13 +65,14 @@ Security and Authentication
 ------------------------------
 .. figure:: /images/information/architecture_auth.png
    :alt: auth architecture
-   :width: 150
-   :height: 150
+   :width: 300
+   :height: 125
    :scale: 75 %
    :align: left
 
 * Security measures such as encryption, authentication, and access control mechanisms are integrated into the architecture of SysReview to safeguard sensitive data and user information.
 * User authentication and authorization mechanisms are employed using JWT (JSON Web Tokens) to ensure secure access to the system and protect against unauthorized access.
+* To learn more about JWT `click here <https://jwt.io/>`_.
 
 Summary
 =======

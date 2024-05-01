@@ -3,8 +3,7 @@ Deployment
 **********
 
 
-.. figure:: /images/information/deploymentDiagram.png
-   :alt: deployment diagram
+.. image:: /images/information/deploymentDiagram.png
    :align: center
 
 The end-user interacts with our application through any web browser that supports javascript.
